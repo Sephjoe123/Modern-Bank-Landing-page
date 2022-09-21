@@ -382,11 +382,10 @@ h4{
     font-size: 3rem;
 }
 .service-container{
-    gap: 30rem;
+    gap: 20rem;
     background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
     border-radius: 20px;
-    max-width: 1350px;
-    padding: 50px ;
+    padding: 3% 6%;
 
 }
 .service button{
@@ -439,7 +438,20 @@ hr{
 }
 
 /* media queries */
+ /* for smaller mobile phones */
+ @media (max-width: 330px){ 
+    .service h1{
+        font-size: 2rem;
+    }
+  .stats span{
+    display: block;
+    margin: auto;
+    width: 90%;
+    padding: 0.5rem;
+  }
  
+  
+ }
 /* Mobile Devices */
 @media (max-width: 480px) {
      /* hero-section */
@@ -518,6 +530,14 @@ hr{
     }
     .deal img{
         width: 100%; 
+    }
+    .deal h1, .review-1 h1{
+        font-size: 2.7rem;
+        max-width: 400px;
+   
+    }
+    .review-1 h1{
+        line-height: 4rem;
     }
   /* reviews-1 */
 
