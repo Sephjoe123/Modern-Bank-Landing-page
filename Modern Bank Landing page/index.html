@@ -9,21 +9,18 @@
 
             <ul class ="nav-ul">
             
-              <div class ="menu">
+              <div id ="scroll-menu" class ="menu">
                 <div>
                   <img class ="nav-img" src = "https://modern-bank-ui.vercel.app/assets/logo.efc6c435.svg">
               
                 </div>
               <div>
-       <li> <a class ="link" href ="http://127.0.0.1:5500/index.html">Home </a></li> &nbsp; &nbsp; &nbsp;
-       <li> <a class ="link" href ="#features">Features</a></li> &nbsp; &nbsp; &nbsp;
-       <li> <a class ="link" href ="Landing page\service.html\service.html">Products</a></li>  &nbsp; &nbsp; &nbsp;
-       <li> <a class ="link" href ="#blog">Reviews</a></li> &nbsp; &nbsp; &nbsp;
+       <li> <a id ="links"  class ="link" href ="http://127.0.0.1:5500/index.html">Home </a></li> &nbsp; &nbsp; &nbsp;
+       <li> <a id ="links"  class ="link" href ="#features">Features</a></li> &nbsp; &nbsp; &nbsp;
+       <li> <a id ="links"  class ="link" href ="#products">Products</a></li>  &nbsp; &nbsp; &nbsp;
+       <li> <a id ="links"  class ="link" href ="#reviews">Reviews</a></li> &nbsp; &nbsp; &nbsp;
         
       </ul>
-
-  
-  
     </nav>
 
     </div>
@@ -35,15 +32,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/153c373bd9.js" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
 
     <!-- 1st section- hero-section -->
+    <div id = "home">
     <section class = "hero-section section-container">
     <div class="hero-container m-query">
       <div class="left-items">
-        <div class = "discount">
+        <div class = "discount container-2">
             <img src="https://modern-bank-ui.vercel.app/assets/Discount.61d9dc08.svg" alt="">
             <h2> 
            <span class ="discount-price"> 20% Discount</span> For 1 Month Account
@@ -71,7 +70,7 @@
 
     </div><!---hero-container-->
     </section>
-     
+     </div>
     <!-- statistics section  -->
     <section class = "stats section-container">
       <div class="stats-container grid">
@@ -91,7 +90,7 @@
 
       </div>
     </section>
-
+  <div id = "features">
     <!-- business -->
     <section class = "business section-container">
     <div class = "business-container container">
@@ -142,6 +141,8 @@
 
     </div>
     </section>
+    </div>
+    <div id = "products">
   <!-- invoice section -->
     <section class = "invoice section-container">
     <div class = "invoice-container container">
@@ -166,6 +167,7 @@
     </div>
 
     </section>
+    </div>
   <!-- deal section -->
     <section class = "deal section-container">
     <div class="deal-container container">
@@ -206,6 +208,7 @@ Everything you need to accept card payments
         </div> 
     </section>
 
+    <div id = "reviews">
     <!-- reviews 2 section -->
     <section class = "reviews-2 section-container">
         <div class="reviews-2-container grid">
@@ -219,8 +222,7 @@ Everything you need to accept card payments
         <img class = "profile-img" src="https://modern-bank-ui.vercel.app/assets/people01.a772086b.png" alt=""> <h5>Herman Jensen <br> <span>Founder & Leader</span>    </h5> 
         
               </div>
-              
-
+            
     </div>
 
     <div class = "comments-2" >
@@ -250,10 +252,9 @@ Everything you need to accept card payments
                 </div>
                      
       </div>
-        </div>
-
-        
+        </div> 
     </section>
+    </div>
   <!-- sponsors -->
     <section class = "sponsor section-container">
      <div class="sponsor-container grid">
