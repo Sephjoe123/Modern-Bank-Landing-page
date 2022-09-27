@@ -116,7 +116,7 @@ float: left;
     opacity: 0;
     position: relative;
     transition:  ease-in-out .8s;
-    transform: translateY(50px);
+    transform: translateY(100px);
 }
 .visible.show{
    opacity: 1;
