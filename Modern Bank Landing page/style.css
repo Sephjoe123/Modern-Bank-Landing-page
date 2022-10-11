@@ -120,7 +120,7 @@ float: left;
 .visible.show{
    opacity: 1;
    transition: ease-in-out .8s;
-   transform: translateY(-100px);
+   transform: translateY(-50px);
 }
 /*Nav menu ends here */
 
@@ -511,7 +511,7 @@ hr{
     font-size: 0.8rem;
  }
  .discount{
- width: 19rem;
+ width: 280px;
  padding: 0.5rem;
  }
 
