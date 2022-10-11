@@ -497,7 +497,7 @@ hr{
 
 /* media queries */
  /* for smaller mobile phones */
- @media (max-width: 350px){ 
+ @media (max-width: 318px){ 
     .service h1{
         font-size: 2rem;
     }
@@ -511,7 +511,7 @@ hr{
     font-size: 0.8rem;
  }
  .discount{
- width: 18rem;
+ width: 19rem;
  padding: 0.5rem;
  }
 
