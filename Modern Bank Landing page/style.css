@@ -476,10 +476,28 @@ hr{
 .menu-items img:hover{
     transform: scale(1.1);
 }
+@media (max-width: 319px){
+    .service h1{
+        font-size: 2rem;
+    }
+ .discount h2{
+    display: inline;
+    text-align: left;
+    padding: 0;
+    
+ }
+ .discount{
+   width: 100%;
+  
+ }
+ .discount img{
+    margin-left: -1px;
+ }
+}
 
 /* media queries */
  /* for smaller mobile phones */
- @media (max-width: 370px){ 
+ @media (max-width: 350px){ 
     .service h1{
         font-size: 2rem;
     }
@@ -491,10 +509,10 @@ hr{
   }
  .discount h2{
     font-size: 0.8rem;
-    
  }
  .discount{
-  max-width: 95%;
+ width: 18rem;
+ padding: 0.5rem;
  }
 
  }
