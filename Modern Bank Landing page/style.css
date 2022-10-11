@@ -511,7 +511,9 @@ hr{
     font-size: 0.8rem;
  }
  .discount{
- width: 280px;
+ width: 270px;
+ display: block;
+ margin: auto;
  padding: 0.5rem;
  }
 
