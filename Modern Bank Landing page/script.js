@@ -28,8 +28,8 @@ function animateOnScroll (){
      }
 }
 
+document.addEventListener("DOMContentLoaded", function() {
 let animatedText = document.querySelector(".discount-price")
-
 
 var options = {
   strings: ["Enticing rates","24/7 Protection","Great deals","20% Discount"],
@@ -38,3 +38,5 @@ var options = {
 };
 
 var typed = new Typed(animatedText, options);
+
+})
