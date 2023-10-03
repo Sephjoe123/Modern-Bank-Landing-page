@@ -168,7 +168,8 @@ p{
     background-color: #1e2022;
     position: relative;
     border-radius: 10px;
-    width: 22.5rem;
+    width: 23rem;
+    padding-top: 30px;
 }
 .left-items{
 margin: 100px 0px;
