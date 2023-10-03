@@ -536,6 +536,10 @@ hr{
     html,body{
         font-size: 0.95rem;
     }
+    .discount{
+        width: 95%;
+        font-size: 0.9rem;
+    }
     .circle{
         display: none;
     }
@@ -1058,4 +1062,26 @@ hr{
    .nav-img{
     width: 150px;
    }
+}
+@media(max-width: 390px){
+    .discount{
+        width: 100%;
+        
+    }
+    .discount span{
+        font-size: 0.9rem;
+    }
+    .discount h2{
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width: 330px){
+ 
+    .discount span{
+        font-size: 0.8rem;
+    }
+    .discount h2{
+        font-size: 0.8rem;
+    }
 }
