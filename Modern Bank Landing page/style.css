@@ -1063,13 +1063,13 @@ hr{
     width: 150px;
    }
 }
-@media(max-width: 390px){
+@media(max-width: 395px){
     .discount{
         width: 100%;
         
     }
     .discount span{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     .discount h2{
         font-size: 0.9rem;
