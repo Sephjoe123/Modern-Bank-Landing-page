@@ -1069,7 +1069,7 @@ hr{
     width: 150px;
    }
 }
-@media(max-width: 395px){
+@media(max-width: 430px){
     .discount{
         width: 100%;
         
