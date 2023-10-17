@@ -235,7 +235,11 @@ z-index: -5;
     position: absolute;
     left: 500px;
     top: 220px;
-    padding: 4.2rem;  
+    padding: 4.2rem; 
+}
+.circle:hover{
+    transform: scale(1.2);
+    transition: ease-in 0.5s;
 }
 
 h4{
@@ -1071,10 +1075,10 @@ hr{
         
     }
     .discount span{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .discount h2{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
     #home h1{
         font-size: 2rem;
@@ -1085,9 +1089,9 @@ hr{
 @media(max-width: 340px){
  
     .discount span{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .discount h2{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }
