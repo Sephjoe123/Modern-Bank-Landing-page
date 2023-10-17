@@ -526,7 +526,7 @@ hr{
         display: flex;
         flex-direction: column;
         width: 90%;
-         margin: -100px 0;
+         margin: -150px 0;
     }
     .hero-section h1{
         font-size: 2.4rem;
@@ -540,6 +540,8 @@ hr{
         width: 95%;
         font-size: 0.9rem;
     }
+    
+    
     .circle{
         display: none;
     }
@@ -1074,9 +1076,13 @@ hr{
     .discount h2{
         font-size: 0.9rem;
     }
+    #home h1{
+        font-size: 2rem;
+        width: 90%;
+        }
 }
 
-@media(max-width: 330px){
+@media(max-width: 340px){
  
     .discount span{
         font-size: 0.8rem;
