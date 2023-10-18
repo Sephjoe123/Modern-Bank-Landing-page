@@ -29,14 +29,10 @@ function animateOnScroll (){
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-let animatedText = document.querySelector(".discount-price")
-
-var options = {
-  strings: ["Enticing rates","24/7 Protection","Great deals","20% Discount"],
-  typeSpeed: 100,
-  loop: true, 
-};
-
-var typed = new Typed(animatedText, options);
+  
+  const images = document.querySelectorAll("img");
+  images.forEach(img =>{
+    img.setAttribute("loading", "lazy");
+  })
 
 })
