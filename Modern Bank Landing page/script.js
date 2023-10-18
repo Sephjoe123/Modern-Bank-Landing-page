@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var typed = new Typed(animatedText, options);
     })
 
-gsap.defaults({ duration: 0.8, ease:"easeInOut", }); 
+gsap.defaults({ duration: 0.7, ease:"easeInOut", }); 
 
 const timeline = gsap.timeline();
 
