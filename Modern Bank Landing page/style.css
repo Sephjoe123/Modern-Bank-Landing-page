@@ -567,7 +567,7 @@ hr{
     }
     
     .stats{
-     margin-top: 150px;
+     margin-top: 250px;
     }
     .stats-container{
         gap: 1rem;
@@ -582,7 +582,7 @@ hr{
         line-height: 2.5rem;
     }
     .business{
-        margin: 50px 0;
+        margin: 100px 0;
     }
     .business-stats{
       width: 70%;
