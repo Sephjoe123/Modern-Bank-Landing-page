@@ -1,4 +1,4 @@
-const heroImg = document.querySelector(".hero-img");
+const heroImg = document.querySelector(".hero-img")
 const discount = document.querySelector(".discount ");
 const discountP = document.querySelector(".hero-section p");
 const stats = document.querySelector(".stats div");
@@ -15,15 +15,9 @@ document.addEventListener("DOMContentLoaded", function() {
     var typed = new Typed(animatedText, options);
     })
 
-gsap.defaults({ duration: 0.8, ease:"easeInOut", }); 
+gsap.defaults({ duration: 0.7, ease:"easeInOut", }); 
 
 const timeline = gsap.timeline();
-
-timeline.from(heroImg, {
-    x: 500,
-    opacity: 0,
-});
-
 timeline.from(discount, {
     y: -500,
     opacity: 0,
@@ -36,6 +30,11 @@ timeline.from(discountP, {
 
 timeline.from("#home h1", {
     x: -1000,
+    opacity: 0,
+});
+
+timeline.from(heroImg, {
+    x: 500,
     opacity: 0,
 });
 
